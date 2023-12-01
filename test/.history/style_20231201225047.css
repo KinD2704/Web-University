@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.main {
+    display: flex;
+}
+.main .menu .logo {
+    padding-bottom: 5rem;
+}
+.main .menu {
+    background-color: orange;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.main .para {
+    padding: 5rem 3rem;
+    margin-left: 30%;
+}
+.main .para .aboutme,
+.main .para .Education {
+    padding: 5rem 0;
+}

@@ -1,0 +1,7 @@
+.main {
+    display: flex;
+}
+.main .menu {
+    background-color: orange;
+    flex-basis: 30%;
+}

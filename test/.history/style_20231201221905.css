@@ -1,0 +1,7 @@
+.main {
+}
+.main .menu {
+    background-color: orange;
+    width: 30%;
+    float: left;
+}
