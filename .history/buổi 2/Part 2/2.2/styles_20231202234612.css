@@ -108,10 +108,6 @@ header .middle p {
     font-size: 20px;
 }
 
-.button:hover {
-    background-color: #64fec6;
-}
-
 .content_box_item .a {
     margin-top: 25px;
 }
