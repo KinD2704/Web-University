@@ -129,12 +129,33 @@ header ul li a {
     text-align: center;
     margin-bottom: 30px;
 }
+.banner3__item1 .bannerBtn {
+    margin: 0 auto;
+    width: 372px;
+    text-align: center;
+}
 .banner3__item1 button {
     height: 70px;
     width: 80%;
-    margin: 0 auto;
     text-align: center;
     color: white;
     background-color: #303030;
     border-radius: 10px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.banner3__item1 .bannerBtn:hover button {
+    background-color: gold;
+    cursor: pointer;
+    color: sienna;
+}
+/* Banner 4 */
+.banner4 {
+    background-image: url("../img/banner4.png");
+    height: 974px;
+}
+/* Banner 5 */
+.banner5 {
+    background-image: url("../img/banner5.png");
+    height: 974px;
 }
