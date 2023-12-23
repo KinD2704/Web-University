@@ -1,35 +1,21 @@
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
+.h-974 {
+    height: 974px;
 }
-body {
-    line-height: 1;
+.text-up {
+    text-transform: uppercase;
 }
-ol,
-ul {
-    list-style: none;
+.d-flex {
+    display: flex;
 }
-blockquote,
-q {
-    quotes: none;
+.text-white {
+    color: #ffffff;
 }
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: "";
-    content: none;
+.justify-space-evenly {
+    justify-content: space-evenly;
 }
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
+.justify-space-around {
+    justify-content: space-around;
+}
+.transition-05 {
+    transition: 0.5s;
 }
