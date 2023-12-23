@@ -37,6 +37,10 @@ header ul li a {
     color: #ffffff;
     font-size: 20px;
     margin: 0 20px;
+    transition: 0.5s;
+}
+header ul li:hover a {
+    color: orange;
 }
 /* banner 1 */
 .banner1 {
@@ -134,17 +138,19 @@ header ul li a {
     width: 372px;
     text-align: center;
 }
-.banner3__item1 button {
+.banner3__item1 button,
+.banner5-Btn {
     height: 70px;
     width: 80%;
     text-align: center;
     color: white;
     background-color: #303030;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 20px;
     transition: 0.5s;
 }
-.banner3__item1 .bannerBtn:hover button {
+.bannerBtn:hover button,
+.bannerBtn:hover .banner5-Btn {
     background-color: gold;
     cursor: pointer;
     color: sienna;
@@ -154,8 +160,44 @@ header ul li a {
     background-image: url("../img/banner4.png");
     height: 974px;
 }
+.banner4__container,
+.banner5__container {
+    display: flex;
+}
+.banner4__item1,
+.banner4__item2,
+.banner5__item1,
+.banner5__item2 {
+    flex-basis: 50%;
+}
+.banner4__item1 img,
+.banner5__item2 img {
+    width: 100%;
+    height: 974px;
+    object-fit: cover;
+}
+.banner4__item2,
+.banner5__item1 {
+    color: white;
+    padding-left: 60px;
+}
 /* Banner 5 */
 .banner5 {
     background-image: url("../img/banner5.png");
     height: 974px;
+}
+.banner5-Btn {
+    width: 40%;
+    margin-bottom: 270px;
+}
+.p1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-top: 300px;
+}
+.p2 {
+    font-size: 26px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 90px;
 }
