@@ -89,7 +89,7 @@ header ul li:hover a {
 }
 /* item */
 .banner2__item1 {
-    background-image: url("../img/background-item.png");
+    background-image: url("/img/background-item.png");
     width: 372px;
     height: 493px;
 }

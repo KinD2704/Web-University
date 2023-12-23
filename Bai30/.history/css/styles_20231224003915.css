@@ -49,24 +49,15 @@ header ul li:hover a {
 }
 .banner1__item {
     position: absolute;
-    width: 640px;
     bottom: 80px;
     left: 80px;
 }
 .banner1__text p {
-    font-size: 100px;
+    font-size: 120px;
 }
 .banner1__text2 p {
     font-size: 24px;
-    padding: 45px 0;
-}
-.banner1__item button {
-    width: 320px;
-    height: 70px;
-    border: none;
-    border-radius: 3px;
-    background-color: #e8631c;
-    font-size: 24px;
+    padding: 30px 0;
 }
 /* banner 2 */
 .banner2 {
@@ -89,7 +80,7 @@ header ul li:hover a {
 }
 /* item */
 .banner2__item1 {
-    background-image: url("../img/background-item.png");
+    background-image: url("/img/background-item.png");
     width: 372px;
     height: 493px;
 }
@@ -159,8 +150,7 @@ header ul li:hover a {
 }
 .bannerBtn:hover button,
 .banner5-Btn:hover,
-.subscribe:hover,
-.banner1__item button:hover {
+.subscribe:hover {
     background-color: gold;
     cursor: pointer;
     color: sienna;

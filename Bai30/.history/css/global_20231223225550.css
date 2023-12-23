@@ -1,0 +1,18 @@
+.h-974 {
+    height: 974px;
+}
+.text-up {
+    text-transform: uppercase;
+}
+.d-flex {
+    display: flex;
+}
+.text-white {
+    color: #ffffff;
+}
+.justify-space-evenly {
+    justify-content: space-evenly;
+}
+.transition-05 {
+    transition: 0.5s;
+}

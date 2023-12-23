@@ -49,24 +49,8 @@ header ul li:hover a {
 }
 .banner1__item {
     position: absolute;
-    width: 640px;
     bottom: 80px;
     left: 80px;
-}
-.banner1__text p {
-    font-size: 100px;
-}
-.banner1__text2 p {
-    font-size: 24px;
-    padding: 45px 0;
-}
-.banner1__item button {
-    width: 320px;
-    height: 70px;
-    border: none;
-    border-radius: 3px;
-    background-color: #e8631c;
-    font-size: 24px;
 }
 /* banner 2 */
 .banner2 {
@@ -89,7 +73,7 @@ header ul li:hover a {
 }
 /* item */
 .banner2__item1 {
-    background-image: url("../img/background-item.png");
+    background-image: url("/img/background-item.png");
     width: 372px;
     height: 493px;
 }
@@ -159,8 +143,7 @@ header ul li:hover a {
 }
 .bannerBtn:hover button,
 .banner5-Btn:hover,
-.subscribe:hover,
-.banner1__item button:hover {
+.subscribe:hover {
     background-color: gold;
     cursor: pointer;
     color: sienna;
@@ -248,29 +231,7 @@ header ul li:hover a {
     padding-top: 125px;
     padding-bottom: 80px;
 }
-.col-1,
-.col-2 {
+.col-1 {
     flex-direction: column;
-    flex-basis: 25%;
-    color: white;
-}
-.col-1 p {
-    padding: 20px 0;
-    transition: 0.5s;
-}
-.col-1 .col-1__p3 i {
-    margin: 0 5px;
-}
-.col-2 p {
-    transition: 0.5s;
-}
-.col-2 p:first-of-type {
-    padding: 20px 0;
-}
-.col-2 p:not(:first-of-type) {
-    padding: 5px 0;
-}
-.col-1 p:hover,
-.col-2 p:hover {
-    color: orange;
+    flex-basis: 20%;
 }

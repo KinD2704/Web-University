@@ -16,7 +16,6 @@ header {
     width: 1440px;
     height: 103px;
     background-color: #303030;
-    z-index: 100;
 }
 .container {
     line-height: 103px;
@@ -45,28 +44,6 @@ header ul li:hover a {
     height: 796px;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-}
-.banner1__item {
-    position: absolute;
-    width: 640px;
-    bottom: 80px;
-    left: 80px;
-}
-.banner1__text p {
-    font-size: 100px;
-}
-.banner1__text2 p {
-    font-size: 24px;
-    padding: 45px 0;
-}
-.banner1__item button {
-    width: 320px;
-    height: 70px;
-    border: none;
-    border-radius: 3px;
-    background-color: #e8631c;
-    font-size: 24px;
 }
 /* banner 2 */
 .banner2 {
@@ -89,7 +66,7 @@ header ul li:hover a {
 }
 /* item */
 .banner2__item1 {
-    background-image: url("../img/background-item.png");
+    background-image: url("/img/background-item.png");
     width: 372px;
     height: 493px;
 }
@@ -158,9 +135,7 @@ header ul li:hover a {
     transition: 0.5s;
 }
 .bannerBtn:hover button,
-.banner5-Btn:hover,
-.subscribe:hover,
-.banner1__item button:hover {
+.bannerBtn:hover .banner5-Btn {
     background-color: gold;
     cursor: pointer;
     color: sienna;
@@ -168,6 +143,11 @@ header ul li:hover a {
 /* Banner 4 */
 .banner4 {
     background-image: url("../img/banner4.png");
+    height: 974px;
+}
+.banner4__container,
+.banner5__container {
+    display: flex;
 }
 .banner4__item1,
 .banner4__item2,
@@ -178,17 +158,18 @@ header ul li:hover a {
 .banner4__item1 img,
 .banner5__item2 img {
     width: 100%;
+    height: 974px;
     object-fit: cover;
 }
 .banner4__item2,
 .banner5__item1 {
     color: white;
     padding-left: 60px;
-    padding-right: 60px;
 }
 /* Banner 5 */
 .banner5 {
     background-image: url("../img/banner5.png");
+    height: 974px;
 }
 .banner5-Btn {
     width: 40%;
@@ -208,19 +189,12 @@ header ul li:hover a {
 /* banner 6 */
 .banner6 {
     background-image: url("../img/banner6.png");
-}
-.banner6__item p:first-of-type {
-    font-size: 50px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-.banner6__item p:last-of-type {
-    font-size: 35px;
-    text-align: center;
+    height: 974px;
 }
 /* Banner 7 */
 .banner7 {
     background-image: url("../img/banner7-1.png");
+    height: 974px;
 }
 /* Banner 8 */
 .banner8 {
@@ -237,40 +211,9 @@ header ul li:hover a {
 }
 .subscribe {
     flex-basis: 30%;
-    background-color: #303030;
 }
 /* Banner 9 */
 .banner9 {
     background-image: url("../img/banner9.png");
     height: 470px;
-}
-.banner9__container {
-    padding-top: 125px;
-    padding-bottom: 80px;
-}
-.col-1,
-.col-2 {
-    flex-direction: column;
-    flex-basis: 25%;
-    color: white;
-}
-.col-1 p {
-    padding: 20px 0;
-    transition: 0.5s;
-}
-.col-1 .col-1__p3 i {
-    margin: 0 5px;
-}
-.col-2 p {
-    transition: 0.5s;
-}
-.col-2 p:first-of-type {
-    padding: 20px 0;
-}
-.col-2 p:not(:first-of-type) {
-    padding: 5px 0;
-}
-.col-1 p:hover,
-.col-2 p:hover {
-    color: orange;
 }
