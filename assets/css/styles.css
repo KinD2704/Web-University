@@ -68,7 +68,7 @@ nav .wrapper {
     border-radius: 0px;
 }
 .nav-links li:hover .drop-menu {
-    top: 65px;
+    top: 85px;
     opacity: 1;
     visibility: visible;
     transition: 0.5s;
