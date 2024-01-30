@@ -346,11 +346,7 @@ nav {
 .new__description {
     font-size: var(--small-font-size);
 }
-.new__card:nth-child(2) img {
-    order: -1;
-}
-.new__button {
-    align-self: center;
+.new__card:nth-child(2) {
 }
 /*=============== ABOUT ===============*/
 

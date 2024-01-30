@@ -33,12 +33,12 @@ navLink.forEach((n) => n.addEventListener("click", linkAction));
 /*=============== ADD BLUR HEADER ===============*/
 const blurHeader = () => {
     const header = document.getElementById("header");
-    // When the scroll is greater than 50 viewport height, add the blur class to the header tag
+    // When the scroll is greater than 50 viewport height, add the scroll-header class to the header tag
     this.scrollY >= 50
-        ? header.classList.add("blur-header")
-        : header.classList.remove("blur-header");
+        ? header.classList.add("scroll-header")
+        : header.classList.remove("scroll-header");
 };
-window.addEventListener("scroll", blurHeader);
+window.addEventListener("scroll", scrollHeader);
 /*=============== SHOW SCROLL UP ===============*/
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
